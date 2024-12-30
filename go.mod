@@ -1,4 +1,4 @@
-module github.com/fiatjaf/khatru
+module github.com/tealeaf-dot-dev/khatru
 
 go 1.23.1
 
