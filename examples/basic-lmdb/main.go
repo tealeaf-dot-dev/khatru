@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/fiatjaf/eventstore/lmdb"
-	"github.com/fiatjaf/khatru"
+	"github.com/tealeaf-dot-dev/khatru"
 )
 
 func main() {

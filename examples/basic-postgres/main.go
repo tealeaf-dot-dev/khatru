@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	"github.com/fiatjaf/eventstore/postgresql"
-	"github.com/fiatjaf/khatru"
+	"github.com/tealeaf-dot-dev/khatru"
 )
 
 func main() {

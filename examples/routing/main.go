@@ -7,7 +7,7 @@ import (
 
 	"github.com/fiatjaf/eventstore/slicestore"
 	"github.com/fiatjaf/eventstore/sqlite3"
-	"github.com/fiatjaf/khatru"
+	"github.com/tealeaf-dot-dev/khatru"
 	"github.com/nbd-wtf/go-nostr"
 )
 

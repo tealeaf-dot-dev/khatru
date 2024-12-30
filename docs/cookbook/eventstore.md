@@ -23,7 +23,7 @@ import (
 	"net/http"
 
 	"github.com/fiatjaf/eventstore/badger"
-	"github.com/fiatjaf/khatru"
+	"github.com/tealeaf-dot-dev/khatru"
 )
 
 func main() {

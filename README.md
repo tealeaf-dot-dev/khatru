@@ -1,8 +1,8 @@
-# khatru, a relay framework [![docs badge](https://img.shields.io/badge/docs-reference-blue)](https://pkg.go.dev/github.com/fiatjaf/khatru#Relay)
+# khatru, a relay framework [![docs badge](https://img.shields.io/badge/docs-reference-blue)](https://pkg.go.dev/github.com/tealeaf-dot-dev/khatru#Relay)
 
-[![Run Tests](https://github.com/fiatjaf/khatru/actions/workflows/test.yml/badge.svg)](https://github.com/fiatjaf/khatru/actions/workflows/test.yml)
-[![Go Reference](https://pkg.go.dev/badge/github.com/fiatjaf/khatru.svg)](https://pkg.go.dev/github.com/fiatjaf/khatru)
-[![Go Report Card](https://goreportcard.com/badge/github.com/fiatjaf/khatru)](https://goreportcard.com/report/github.com/fiatjaf/khatru)
+[![Run Tests](https://github.com/tealeaf-dot-dev/khatru/actions/workflows/test.yml/badge.svg)](https://github.com/tealeaf-dot-dev/khatru/actions/workflows/test.yml)
+[![Go Reference](https://pkg.go.dev/badge/github.com/tealeaf-dot-dev/khatru.svg)](https://pkg.go.dev/github.com/tealeaf-dot-dev/khatru)
+[![Go Report Card](https://goreportcard.com/badge/github.com/tealeaf-dot-dev/khatru)](https://goreportcard.com/report/github.com/tealeaf-dot-dev/khatru)
 
 Khatru makes it easy to write very very custom relays:
 
@@ -22,7 +22,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/fiatjaf/khatru"
+	"github.com/tealeaf-dot-dev/khatru"
 	"github.com/nbd-wtf/go-nostr"
 )
 
@@ -131,7 +131,7 @@ Fear no more. Using the https://github.com/fiatjaf/eventstore module you get a b
 
 ### But I don't want to write a bunch of custom policies!
 
-Fear no more. We have a bunch of common policies written in the `github.com/fiatjaf/khatru/policies` package and also a handpicked selection of base sane defaults, which you can apply with:
+Fear no more. We have a bunch of common policies written in the `github.com/tealeaf-dot-dev/khatru/policies` package and also a handpicked selection of base sane defaults, which you can apply with:
 
 ```go
 	policies.ApplySaneDefaults(relay)

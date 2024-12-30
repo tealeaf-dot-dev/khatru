@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/fiatjaf/eventstore/badger"
-	"github.com/fiatjaf/khatru"
-	"github.com/fiatjaf/khatru/blossom"
+	"github.com/tealeaf-dot-dev/khatru"
+	"github.com/tealeaf-dot-dev/khatru/blossom"
 )
 
 func main() {
